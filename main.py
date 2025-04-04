@@ -3,9 +3,11 @@ def calculator():
     op = input("Enter operator (+, -, *, /): ")
     num2 = float(input("Enter second number: "))
     if op == "+":
-        return f'Result {num1 + num2}'
+        print(num1 + num2)
+        print(f'Result {num1 + num2}')
     elif op == "-":
-        return f'Result {num1 - num2}'
+        print(num1 - num2)
+        print(f'Result {num1 - num2}')
     elif op == "*":
         return f'Result {num1 * num2}'
     elif op == "/":
